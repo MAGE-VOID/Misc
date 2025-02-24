@@ -39,11 +39,11 @@ def calcular_ganancias(
 
 # Capital de los inversores en una lista
 inversiones = [
-    58500,
+    78700,
 ]
 
 # Ganancia mensual generada por el robot en un mes
-ganancia_mensual = 6000  # Asumiendo un promedio de ganancia mensual del robot
+ganancia_mensual = 3000  # Asumiendo un promedio de ganancia mensual del robot
 
 try:
     # Calcular las ganancias de los inversores

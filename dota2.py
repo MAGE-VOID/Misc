@@ -40,7 +40,7 @@ def obtener_ultimos_matches(account_id, limit=5):
 if __name__ == "__main__":
     # Reemplaza con un account_id válido
     #my_account_id = 149597815 # Tot
-    my_account_id = 387939600
+    my_account_id = 149604535
 
     # Lista de account IDs que queremos buscar en los matches (aparte del tuyo)
     target_accounts = [455391001, # Ozo
