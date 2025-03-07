@@ -6,6 +6,9 @@ MQL5/Experts/Projects/Sharing-Projects/Misc/DNN/10/data/
 
 # Ignorar archivos mp4
 *.mp4
+*.png
+*.jpg
+*.pyc
 
 # Ignorar los archivos grandes específicos
 DNN/9/nb_images/road_video.mp4
