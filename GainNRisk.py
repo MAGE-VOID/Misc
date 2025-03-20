@@ -5,22 +5,23 @@ from openpyxl import load_workbook
 # FACTORES DE CONVERSIÓN
 # En una cuenta cent: 10 USD normal = 1000 cent, es decir, 1 USD normal = 100 cent.
 currency_conversion_factor = 100
-# En la cuenta cent se opera con lotes 10 veces mayores para tener el mismo riesgo/exposición:
+# En la cuenta cent se opera con lotes 10 veces mayores para tener el mismo riesgo/exposición que en una cuenta normal.
 lot_conversion_factor = 10
 
 # PARÁMETROS BASE
-# Una operación de 0.01 lote en cuenta normal equivale a 0.1 lote en cuenta cent.
-base_lot_cent = 0.1  # Lote base en cuenta cent
-base_gain_normal_usd = 2000   # Ganancia de 2000 USD por 0.01 lote (cuenta normal)
-base_risk_normal_usd = 55000   # Drawdown máximo de 55000 USD por 0.01 lote (cuenta normal)
+# Aunque el mínimo lote permitido en una cuenta cent es 0.01,
+# para obtener la misma exposición que en una cuenta normal (0.01 lote) se utiliza 0.1 lote en cuenta cent.
+base_lot_cent = 0.1  # Lote base en cuenta cent equivalente a 0.01 lote en cuenta normal.
+base_gain_normal_usd = 2000   # Ganancia de 2000 USD por operar 0.01 lote en cuenta normal.
+base_risk_normal_usd = 55000   # Drawdown máximo de 55000 USD por operar 0.01 lote en cuenta normal.
 
 # Convertir las magnitudes a unidades de cuenta cent (centavos)
 base_gain_cent = base_gain_normal_usd * currency_conversion_factor     # 2000 USD * 100 = 200000 cent
 base_risk_cent = base_risk_normal_usd * currency_conversion_factor     # 55000 USD * 100 = 5500000 cent
 
 # DEPÓSITO
-# Definir el depósito inicial en USD normales y su equivalente en centavos
-deposit_normal_usd = 10000  # Puedes modificar este valor según sea necesario
+# Definir el depósito inicial en USD normales y su equivalente en centavos.
+deposit_normal_usd = 6000  # Puedes modificar este valor según sea necesario.
 deposit_cent = deposit_normal_usd * currency_conversion_factor
 
 # LISTA DE TAMAÑOS DE LOTE (en cuenta cent)
@@ -29,10 +30,11 @@ lot_sizes = [0.01, 0.02, 0.03, 0.04, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0
              3.50, 4.00, 4.50, 5.00]
 
 # CÁLCULO DE MÉTRICAS
-# Ganancia (centavos) = (lote / base_lot_cent) * base_gain_cent
-# Riesgo (centavos)  = (lote / base_lot_cent) * base_risk_cent
-# Balance Restante (centavos) = Depósito (centavos) - Riesgo (centavos)
-# Balance Restante (USD) = Depósito (USD) - Riesgo (USD)
+# Los cálculos se hacen sobre la base de que:
+#   Ganancia (centavos) = (lote / base_lot_cent) * base_gain_cent
+#   Riesgo (centavos)  = (lote / base_lot_cent) * base_risk_cent
+# Además, se añade la equivalencia en lotes de cuenta normal: lote_equiv_normal = lote / lot_conversion_factor
+# Se calcula además el balance restante y el balance relativo (%), restando el riesgo del depósito.
 data = {
     "Depósito (USD Normal)": [deposit_normal_usd] * len(lot_sizes),
     "Depósito (USD Centavos)": [deposit_cent] * len(lot_sizes),
