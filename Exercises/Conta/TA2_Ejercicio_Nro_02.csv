@@ -1,0 +1,53 @@
+﻿Cuenta;2020;2019
+Ventas netas;42018964;31668969
+(-) Costo de ventas;21935576;16970746
+UTILIDAD BRUTA;20083388;14698223
+(-) Gasto de ventas;3904772;3561789
+(-) Gasto de administración;4545854;3549029
+UTILIDAD OPERATIVA;11632762;7587405
+;;
+OTROS INGRESOS Y/O EGRESOS;;
+Ingresos financieros;175207;97132
+(-) Gastos financieros;765665;493666
+Ingresos diversos;355231;277234
+(-) Gastos diversos;205343;542540
+UTILIDAD ANTES IMPTO. RENTA;11192192;6925565
+Impuesto a la renta;3301697;2043042
+UTILIDAD NETA;7890495;4882523
+RESOLUCIÓN:;;
+;;
+1) Análisis Vertical 2020;;
+Base Ventas Netas;=$B$2;
+(-) Costo de ventas;=$B$3/$B$2;
+UTILIDAD BRUTA;=$B$4/$B$2;
+(-) Gasto de ventas;=$B$5/$B$2;
+(-) Gasto de administración;=$B$6/$B$2;
+UTILIDAD OPERATIVA;=$B$7/$B$2;
+;;
+Ingresos financieros;=$B$10/$B$2;
+(-) Gastos financieros;=$B$11/$B$2;
+Ingresos diversos;=$B$12/$B$2;
+(-) Gastos diversos;=$B$13/$B$2;
+UTILIDAD ANTES IMPTO. RENTA;=$B$14/$B$2;
+Impuesto a la renta;=$B$15/$B$2;
+UTILIDAD NETA;=$B$16/$B$2;
+;;
+2) Análisis Vertical 2019;;
+Base Ventas Netas;=$C$2;
+(-) Costo de ventas;=$C$3/$C$2;
+UTILIDAD BRUTA;=$C$4/$C$2;
+(-) Gasto de ventas;=$C$5/$C$2;
+(-) Gasto de administración;=$C$6/$C$2;
+UTILIDAD OPERATIVA;=$C$7/$C$2;
+;;
+Ingresos financieros;=$C$10/$C$2;
+(-) Gastos financieros;=$C$11/$C$2;
+Ingresos diversos;=$C$12/$C$2;
+(-) Gastos diversos;=$C$13/$C$2;
+UTILIDAD ANTES IMPTO. RENTA;=$C$14/$C$2;
+Impuesto a la renta;=$C$15/$C$2;
+UTILIDAD NETA;=$C$16/$C$2;
+;;
+3) Análisis Horizontal del ER;;
+* Variación absoluta: =B2-C2;;
+* Variación %: =(B2-C2)/C2;;

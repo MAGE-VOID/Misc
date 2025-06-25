@@ -1,0 +1,43 @@
+﻿Activo;Monto;Pasivo;Monto
+Activos corrientes;;Pasivo corriente;
+Efectivo;32000;Proveedores por pagar;50000
+Cuentas por cobrar clientes;15000;Impuestos por pagar;10000
+Anticipos a proveedores;1000;Otros cuentas por pagar;1000
+Inventario;30200;Total pasivos corrientes;61000
+;;;
+Total activos corrientes;78200;Pasivo no corrientes;97000
+;;Total pasivos;158000
+Activos no corrientes;;;
+Propiedad, planta y equipo;100000;Capital contable;
+Depreciación acumulada;8000;Capital pagado;10000
+Total activos no corrientes;92000;Utilidades retenidas;2200
+Total Activos;170200;Total capital contable;12200
+;;;
+;;Total pasivo y capital;170200
+RESOLUCIÓN:;;;
+;;;
+1) Análisis Vertical del Balance;;;
+Base Activos;=$B$14;;
+Efectivo;=$B$3/$B$14;;
+Cuentas por cobrar clientes;=$B$4/$B$14;;
+Anticipos a proveedores;=$B$5/$B$14;;
+Inventario;=$B$6/$B$14;;
+Total activos corrientes;=$B$8/$B$14;;
+Propiedad, planta y equipo;=$B$11/$B$14;;
+Depreciación acumulada;=$B$12/$B$14;;
+Total activos no corrientes;=$B$13/$B$14;;
+;;;
+2) Análisis Vertical de Pasivo y Capital;;;
+Base Pasivo y Capital;=$D$16;;
+Proveedores por pagar;=$D$3/$D$16;;
+Impuestos por pagar;=$D$4/$D$16;;
+Otros cuentas por pagar;=$D$5/$D$16;;
+Total pasivos corrientes;=$D$6/$D$16;;
+Pasivo no corrientes;=$D$8/$D$16;;
+Total pasivos;=$D$9/$D$16;;
+Capital pagado;=$D$12/$D$16;;
+Utilidades retenidas;=$D$13/$D$16;;
+Total capital contable;=$D$14/$D$16;;
+;;;
+3) Análisis Horizontal del Balance;;;
+* Requiere saldos ejercicio anterior;;;

@@ -1,0 +1,151 @@
+{
+  "¿Eres fan de los triples?": [
+    "Sí, me encantan",
+    "No, no son lo mío"
+  ],
+  "¿Cuántos años tienes?": [
+    "Menos de 18 años",
+    "18 - 24 años",
+    "25 - 34 años",
+    "35 - 44 años",
+    "Más de 45 años"
+  ],
+  "Género": [
+    "Masculino",
+    "Femenino"
+  ],
+  "¿En qué distrito de Lima Metropolitana resides o pasas la mayor parte de tu tiempo?": [
+    "Ancón",
+    "Ate",
+    "Barranco",
+    "Breña",
+    "Carabayllo",
+    "Chaclacayo",
+    "Chorrillos",
+    "Cieneguilla",
+    "Comas",
+    "El Agustino",
+    "Independencia",
+    "Jesús María",
+    "La Molina",
+    "La Victoria",
+    "Lima Cercado",
+    "Lince",
+    "Los Olivos",
+    "Lurigancho-Chosica",
+    "Lurín",
+    "Magdalena del Mar",
+    "Miraflores",
+    "Pachacámac",
+    "Pucusana",
+    "Pueblo Libre",
+    "Puente Piedra",
+    "Punta Hermosa",
+    "Punta Negra",
+    "Rímac",
+    "San Bartolo",
+    "San Borja",
+    "San Isidro",
+    "San Juan de Lurigancho",
+    "San Juan de Miraflores",
+    "San Luis",
+    "San Martín de Porres",
+    "San Miguel",
+    "Santa Anita",
+    "Santa María del Mar",
+    "Santa Rosa",
+    "Santiago de Surco",
+    "Surquillo",
+    "Villa El Salvador",
+    "Villa María del Triunfo"
+  ],
+  "¿Con qué frecuencia consumes triples durante la semana?": [
+    "Una vez por semana o menos",
+    "2 a 3 veces por semana",
+    "4 a 6 veces por semana",
+    "Todos los días",
+    "Rara vez o nunca"
+  ],
+  "¿En qué momento disfrutas más de este tipo de snack? (Selecciona todas las que apliquen)": [
+    "Como un snack rápido entre comidas (media mañana/tarde)",
+    "Para el desayuno o lonche",
+    "Como almuerzo o cena ligera",
+    "En reuniones con amigos o familiares",
+    "Para llevar (al trabajo, estudio, paseo)",
+    "En eventos o celebraciones pequeñas"
+  ],
+  "¿Dónde compras tus triples actualmente?": [
+    "Tiendas de conveniencia (Tambo, Oxxo, etc.)",
+    "Supermercados",
+    "Kioscos o carretillas",
+    "Apps de delivery",
+    "Ferias o mercados locales",
+    "Directo en redes sociales"
+  ],
+  "¿Qué valoras más al elegir un triple?": [
+    "Precio accesible",
+    "Sabor delicioso",
+    "Ingredientes naturales/saludables",
+    "Innovación o formato novedoso",
+    "Tamaño práctico y fácil de llevar"
+  ],
+  "¿Cuál de estas presentaciones de Triple X te parece más atractiva y deliciosa?": [
+    "La picante (pollo deshilachado, con salsa BBQ)",
+    "La golosito (pollito a la brasa con papitas)",
+    "La insaciable (chorizo con chimichurri)"
+  ],
+  "¿Qué tipo de cremas o salsas te gustaría que acompañen nuestros triples?": [
+    "Ají criollo",
+    "Mayonesa",
+    "Tártara",
+    "Ketchup"
+  ],
+  "¿Tienes en mente alguna crema especial que no viste en la lista anterior y te encantaría que acompañe nuestros triples?": [],
+  "Si tuvieras la oportunidad de probar un nuevo triple fácil de llevar, con rellenos sabrosos y diferentes, ¿qué tanto te interesaría?": [
+    "Muy interesado",
+    "Interesado",
+    "Poco interesado",
+    "Nada interesado"
+  ],
+  "¿Qué tan dispuesto(a) estás a probar sabores nuevos en productos como los triples?": [
+    "Me encanta innovar",
+    "A veces pruebo cosas nuevas",
+    "Prefiero los sabores clásicos",
+    "No me gusta experimentar"
+  ],
+  "¿Con qué te gustaría acompañar tu triple al momento de comerlo? (Selecciona todas las que apliquen)": [
+    "Con gaseosa, jugo o agua",
+    "Con papas (fritas, nativas o al hilo)",
+    "Con cerveza u otra bebida alcohólica",
+    "Prefiero solo el triple, sin acompañamientos"
+  ],
+  "Considerando un triple de buena calidad y tamaño, ¿Cuánto te parecería justo pagar?": [
+    "Menos de S/ 11.00",
+    "Entre S/ 12.00 y S/ 13.00",
+    "Entre S/ 14.00 y S/ 15.00",
+    "Entre S/ 16.00 y S/ 20.00",
+    "Más de S/ 20.00"
+  ],
+  "¿Dónde te gustaría poder comprar este Triple X? (Selecciona todas las que apliquen)": [
+    "Tiendas de conveniencia (Tambo, Oxxo, etc.)",
+    "Supermercados",
+    "Kioscos o carretillas",
+    "Apps de delivery",
+    "Ferias o mercados locales",
+    "Directo en redes sociales"
+  ],
+  "¿Con qué frecuencia utilizarías un servicio de delivery para pedir estos triples?": [
+    "Siempre",
+    "A veces",
+    "Rara vez",
+    "Nunca"
+  ],
+  "Si el producto cumple con tus expectativas, ¿qué tan probable sería que lo recomiendes a un amigo o familiar?": [
+    "Muy probable",
+    "Probable",
+    "Neutro",
+    "Poco probable",
+    "Nada probable"
+  ],
+  "¿Tienes algún comentario, sugerencia o idea adicional que quieras compartir con nosotros sobre este nuevo producto?": []
+}
